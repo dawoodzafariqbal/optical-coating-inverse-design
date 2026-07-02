@@ -167,26 +167,13 @@ tmm-optical-coating-designer/
 
 ## How to Run
 
-All steps run in Google Colab with no additional installs.
-NumPy, pandas, scikit-learn, scipy, and matplotlib are pre-installed.
+Open the notebook directly in Google Colab:
 
-```python
-# Step 1 — copy step1_tmm_engine.py into a cell and run
-# Step 2 — copy step2_dataset.py into a cell and run (~50s)
-# Step 3 — copy step3_surrogate.py into a cell and run (~90s)
-# Step 4 — copy step4_inverse_design.py into a cell and run (~240s)
-# Step 5 — copy step5_validation.py into a cell and run (~30s)
-```
+TMM_Optical_Coating_Designer.ipynb
 
-Each step saves its output (CSV or .joblib) to the Colab session.
-Mount Google Drive to persist files across sessions:
-
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-```
-
----
+All dependencies (NumPy, pandas, scikit-learn, scipy, 
+matplotlib) are pre-installed in Colab. Run cells top 
+to bottom. Each step saves its output automatically.
 
 ## Physics Background
 
